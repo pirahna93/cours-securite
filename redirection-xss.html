@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<script>
+    const queryString = window.location.search;
+    const urlParams = new URLsearchParams(queryString);
+    const cookieValue = urlParams.get('cookie');
+    document.write('La valeur du cookie pwd est ${cookieValue}');
+
+    // en php, j'aurais simplement à faire un écho $_GET['cookie'];
+</script>
+
+<p>J'ai récupéré les informations de votre cookie du site précédent sur mon site.
+    Je peux en faire ce que je veux (me l'envoyer par mail, le stocker dans une base de données)</p>
+</body>
+</html>
